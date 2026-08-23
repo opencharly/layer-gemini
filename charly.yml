@@ -13,7 +13,7 @@ gemini:
             A CUE-validated tmux profile exposes it through the same generic
             local/SSH/nested Charly agent channel as other terminal agents.
         require:
-            - nodejs
+            - '@github.com/opencharly/layer-nodejs:v2026.235.2056'
         agent_provide:
             - provider: tmux
               protocol_version: 2
