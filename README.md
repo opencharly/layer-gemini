@@ -23,9 +23,12 @@ channel as the other terminal agents.
 
 ## How to use it
 
-Compose the layer by pinning this repo in a box's `candy:` list:
+Compose the layer into an image: the image node names this repo in its inner
+`candy:` list (the outer `candy:` key holds the image spec — `base:` plus the
+list of candies):
 
 ```yaml
+version: 2026.261.1747
 my-box:
   candy:
     base: fedora
