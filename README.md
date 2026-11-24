@@ -33,7 +33,7 @@ my-box:
   candy:
     base: fedora
     candy:
-      - '@github.com/opencharly/layer-gemini:v2026.243.0409'
+      - '@github.com/opencharly/layer-gemini:v2026.314.0706'
 ```
 
 Then, inside the built image:
